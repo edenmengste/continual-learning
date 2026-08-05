@@ -41,3 +41,5 @@ When trained sequentially on multiple tasks without safeguards, neural networks 
 2. **Rehearsal Performed Best**: Storing 500 Task 1 samples reduced forgetting by **~49%** (down to 13.96%), as direct data updates explicitly maintained Task 1 predictions.
 3. **EWC Offers Privacy-Friendly Protection**: Reduced forgetting by **~29%** (down to 19.44%) without storing raw data, making it ideal for constrained or privacy-sensitive applications.
 4. **No Plasticity Loss**: All methods maintained high Task 2 performance (~96%), proving that mitigation strategies did not hinder the network's ability to learn new tasks.
+
+![alt text](image.png)
