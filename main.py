@@ -59,13 +59,6 @@ task2_test = DataLoader(
 )
 
 
-
-print("==============================")
-print("CONTINUAL LEARNING CNN")
-print("==============================")
-
-
-
 baseline_results = run_baseline(
     task1_train,
     task2_train,
